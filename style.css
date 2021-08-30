@@ -1,0 +1,35 @@
+/* .albums{
+    display: flex;
+    justify-content: center;
+      flex-wrap: wrap;
+} */
+
+.navbar{
+    background-color: rgba(47, 79, 79, 0.315);
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    text-align:initial;
+}
+
+
+.menu{
+    margin: 15px;
+    margin-top: 0px;
+    font-size:45px;
+    color: rgb(30,215,96);
+   
+}
+
+.album{
+    height: 300px;
+    background-color: rgba(255, 248, 220, 0.37);
+}
+img{
+    width: 80%;
+}
+
+.main{
+    height:  100%;
+    background-color: rgb(30, 45, 59);
+}
