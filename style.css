@@ -10,9 +10,31 @@
     width: 100%;
     line-height: 60px;
     text-align:initial;
+    margin-bottom: 70px;
 }
 
-
+    /* ALLINEAMENTO */
+    .tac {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .tacr {
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .tae {
+        display:flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    .tacl{
+        display:flex;
+        align-items: center;
+    }
 .menu{
     margin: 15px;
     margin-top: 0px;
@@ -22,14 +44,37 @@
 }
 
 .album{
-    height: 300px;
-    background-color: rgba(255, 248, 220, 0.37);
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 380;
+    width: 200px;
+    background-color: rgba(255, 248, 220, 0.048);
+
 }
 img{
-    width: 80%;
+    width: 160px;
+    height: auto;
 }
 
 .main{
-    height:  100%;
+    height:  1080px;
     background-color: rgb(30, 45, 59);
+}
+
+h4{
+    text-align: center;
+    text-transform:uppercase;
+    color: lightcyan;
+}
+
+h5{
+    line-height: 0.7;
+    text-align: center;
+    color: rgba(211, 211, 211, 0.548);
+}
+
+.subtitle{
+    margin-bottom: 30px;
 }

@@ -55,9 +55,15 @@ foreach($database as $ad){
     $author = $ad['author'];
     $year = $ad['year'];
 
-    echo "<div class='album col-2'>
+    echo "<div class='album tac'>
             <a href=www.google.it><img src={$img}></a>
-            <h3>{$title}</h3>
+            <h4>{$title}</h4>
+            <div class='subtitle'>
+                <h5>{$author}</h5>
+                <h5>{$year}</h5>
+
+            </div>
+
           </div>";
 
     
