@@ -1,6 +1,6 @@
 <?php 
 
-function printJson($array) {
+function printJson($database) {
     header('Content-Type: application/json');
-    echo json_encode($array);
+    echo json_encode($database);
 }
